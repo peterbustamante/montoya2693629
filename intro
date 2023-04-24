@@ -1,2 +1,3 @@
 print ( "Hola")
-d
+#solicitar dos numeros al usuario 
+#diga si son acendentes o  decendentes o son iguales 
