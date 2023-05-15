@@ -17,7 +17,7 @@ def ascendente(lista,tam):
         for j in range(i+1,tam):
             if lista[i]>lista[j]:
                 aux=lista[i]
-                (parameter)lista: Any
+                (para meter)lista: Any
 
 print(lista)
 
@@ -26,7 +26,6 @@ for i in range(tam):
         if lista[i]<lista[j]:
             aux=lista[i]
             lista[i]=lista[j]
-            lista[j]=aux            
-
+            lista[j]=aux
 print(lista)
 
