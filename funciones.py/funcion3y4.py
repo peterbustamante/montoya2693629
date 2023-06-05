@@ -5,8 +5,8 @@ def fib(x):
     b=1
     for y in range(x):
         c=a+b
-        a = b 
-        b =c   
+        a = b
+        b =c
     return b
 
 num=int(input("Ingrese la cantidad de digitos: "))
@@ -14,7 +14,6 @@ lista1=[]
 
 for z in range(num):
     lista1.append(fib(z))
-    
 print("Serie de Fibonacci: ",lista1)
 
 #4. Funcion para llenar una lista de numeros aleatorios pero que no sean repetidos 
